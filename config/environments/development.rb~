@@ -30,7 +30,7 @@ Rails.application.configure do
   # For mail
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'localhost:3000'
+  host = 'example.com'
   config.action_mailer.default_url_options = { host: host }
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
