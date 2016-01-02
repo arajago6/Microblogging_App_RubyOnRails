@@ -4,7 +4,7 @@
     <section class="user_info">
       <%= gravatar_for @user %>
       <h1><%= @user.name %></h1>
-      <span><%= link_to "view my profile", @user %></span>
+      <span><%= link_to "View my MBlo profile", @user %></span>
       <span><b>Microposts:</b> <%= @user.microposts.count %></span>
     </section>
     <section class="stats">
@@ -25,6 +25,8 @@
         <%= render @users %>
       </ul>
       <%= will_paginate %>
+    <% end %>
+      <h5>No activity found!</h5>
     <% end %>
   </div>
 </div>

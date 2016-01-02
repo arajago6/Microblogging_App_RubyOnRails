@@ -25,6 +25,8 @@
         <%= render @users %>
       </ul>
       <%= will_paginate %>
+    <% else %>
+      <h5>No activity found!</h5>
     <% end %>
   </div>
 </div>

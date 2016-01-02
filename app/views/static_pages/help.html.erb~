@@ -2,7 +2,18 @@
 <!DOCTYPE html>
 <html>
   <body>
-	<h1>StaticPages#help</h1>
-	<p>Find me in app/views/static_pages/help.html.erb</p>
+	<h1>MBlo Help</h1>
+	<h2> 
+	  Join the MBlo family by cliking the Sign Up button in Home page</br>&#x21E9</br>
+	  Fill your details in the Sign Up form and click Create button</br>&#x21E9</br>
+	  You will be sent an email  with a link to activate your account</br>&#x21E9</br>
+	  Click on the activate link to get started with MBlo</br>&#x21E9</br>
+	  <%= link_to image_tag("voila.jpg", alt: "Voila", :class=>"center") %></br>You are now an MBlo member!</br>&#x21E9</br>
+	  Navigate to Home page to add new posts</br>&#x21E9</br>
+	  Navigate to Users to Follow page (appears when you login) to add followers.</br>&#x21E9</br>
+  	  Navigate to Settings page under Accounts tab (appears when you login) to change your profile picture, password and more.</br>
+	  </br>You can also request password resets by clicking Forgot password link when trying to login.
+  	</h2>
+  	<h1><i>Happy Blogging!</i></h1>
   </body>
 </html>
