@@ -7,10 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Users
-User.create!(name:  "Example User",
-             email: "example@railstutorial.org",
-             password:              "foobar",
-             password_confirmation: "foobar",
+User.create!(name:  "Arun Rajagopalan",
+             email: "arajago6@hawk.iit.edu",
+             password:              "ar!!191166",
+             password_confirmation: "ar!!191166",
              admin:     true,
              activated: true,
              activated_at: Time.zone.now)
@@ -18,8 +18,8 @@ User.create!(name:  "Example User",
 
 99.times do |n|
   name  = Faker::Name.name
-  email = "example-#{n+1}@railstutorial.org"
-  password = "password"
+  email = "test-#{n+1}@mblo.herokuapp.com"
+  password = "thirdappisgreat"
   User.create!(name:  name,
                email: email,
                password:              password,

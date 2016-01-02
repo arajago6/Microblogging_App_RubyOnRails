@@ -5,10 +5,10 @@ class AccountActivationsController < ApplicationController
     if user && !user.activated? && user.authenticated?(:activation, params[:id])
       user.activate
       log_in user
-      flash[:success] = "Account activated!"
+      flash[:success] = "Yay! Your MBlo account has been activated!"
       redirect_to user
     else
-      flash[:danger] = "Invalid activation link"
+      flash[:danger] = "That was an invalid activation link! Please try again with a valid one."
       redirect_to root_url
     end
   end
