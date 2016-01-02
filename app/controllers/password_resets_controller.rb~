@@ -8,13 +8,13 @@ class PasswordResetsController < ApplicationController
 
   def create
     @user = User.find_by(email: params[:password_reset][:email].downcase)
-    if @user
+    if @user && @user.activated?
       @user.create_reset_digest
       @user.send_password_reset_email
       flash[:info] = "An email has been sent with password reset instructions."
       redirect_to root_url
     else
-      flash.now[:danger] = "No MBlo account is associated with the specified email address. Please re-check your email address."
+      flash.now[:danger] = "No active MBlo account is associated with the specified email address. Please re-check your email address."
       render 'new'
     end
   end
@@ -29,7 +29,7 @@ class PasswordResetsController < ApplicationController
     elsif @user.update_attributes(user_params)
       log_in @user
       flash[:success] = "Your MBlo account password has been reset."
-      redirect_to @user
+      redirect_to root_url
     else
       render 'edit'
     end
