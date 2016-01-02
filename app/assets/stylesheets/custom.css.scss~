@@ -64,7 +64,7 @@ p {
 /* header */
 
 #logo {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Pacifico', cursive;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -144,6 +144,9 @@ background-color: black;
     padding:5px;
 }
 
+.dropdown-menu {
+    background: linear-gradient(lightblue, lightgreen);
+}
 /* sidebar */
 
 aside {

@@ -2,15 +2,12 @@
 
 <p>Hi <%= @user.name %>,</p>
 
-<p>
-Welcome to MBlo, the microblogging app! Click on the link below to activate your account.
-</p>
+<p>Welcome to MBlo, the microblogging app! Click on the link below to activate your account.</p>
 
 <%= link_to "Activate", edit_account_activation_url(@user.activation_token,
                                                     email: @user.email) %>
-<p>
-Cheers,</br>
-Arun Rajagopalan for MBlo.
-</p>
+
+<p>Cheers,</p>
+<p>Arun Rajagopalan for MBlo.</p>
 
 
