@@ -1,13 +1,14 @@
+<!-- Writing every line as a separate paragraph for exact rendering in mobile email clients -->
 <h1>MBlo is delighted to have you!</h1>
-
+<hr>
 <p>Hi <%= @user.name %>,</p>
 
 <p>Welcome to MBlo, the microblogging app! Click on the link below to activate your account.</p>
 
 <%= link_to "Activate", edit_account_activation_url(@user.activation_token,
                                                     email: @user.email) %>
-
-<p>Cheers,</p>
-<p>Arun Rajagopalan for MBlo.</p>
+<hr>
+<p><i>Cheers,</i></p>
+<p><b>Arun Rajagopalan for MBlo.</b></p>
 
 

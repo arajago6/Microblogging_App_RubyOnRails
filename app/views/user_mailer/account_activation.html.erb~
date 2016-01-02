@@ -1,3 +1,4 @@
+<!-- Writing every line as a separate paragraph for exact rendering in mobile email clients -->
 <h1>MBlo is delighted to have you!</h1>
 
 <p>Hi <%= @user.name %>,</p>
@@ -8,6 +9,6 @@
                                                     email: @user.email) %>
 
 <p>Cheers,</p>
-<p>Arun Rajagopalan for MBlo.</p>
+<p><b>Arun Rajagopalan for MBlo.</b></p>
 
 
