@@ -7,7 +7,6 @@
         <li><%= link_to "Help",   help_path %></li>
         <% if logged_in? %>
           <li><%= link_to "Users to follow", users_path %></li>
-
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Account <b class="caret"></b>
@@ -22,8 +21,6 @@
             </ul>
           </li>
         <% else %>
-          <li><%= link_to "Home",   root_path %></li>
-          <li><%= link_to "Help",   help_path %></li>
           <li><%= link_to "Log in", login_path %></li>
         <% end %>
       </ul>

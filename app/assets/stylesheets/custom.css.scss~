@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('http://fonts.googleapis.com/css?family=Damion');
+@import url('http://fonts.googleapis.com/css?family=Yellowtail');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700italic');
 
 /* mixins, variables, etc. */
@@ -65,7 +65,7 @@ p {
 /* header */
 
 #logo {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Yellowtail', cursive;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
