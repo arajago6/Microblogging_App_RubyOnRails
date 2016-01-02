@@ -4,5 +4,5 @@
   </ol>
   <%= will_paginate @feed_items %>
 <% else %>
-<h4>No posts/followers to form feed from!</h4>
+<h5>No posts/following activity to form feed from!</h5>
 <% end %>

@@ -1,9 +1,10 @@
 <%= form_for(@micropost, html: { multipart: true }) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
+  <h5>Compose your new micropost below*</h5>
   <div class="field">
-    <%= f.text_area :content, placeholder: "Compose new micropost..." %>
+    <%= f.text_area :content, placeholder: "Type text here..." %>
   </div>
-  <h5>Add image to the post below</h5>
+  <h5>Optionally, add image to the post below</h5>
   <span class="picture">
     <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
   </span>
