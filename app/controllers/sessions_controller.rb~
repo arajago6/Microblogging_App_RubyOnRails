@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
       if user.activated?
         log_in user
         params[:session][:remember_me] == '1' ? remember(user) : forget(user)
-        redirect_back_or user
+        redirect_back_or root_url
       else
         message  = "Your MBlo account is not activated yet! "
         message += "Check your email for the activation link. Please wait for a few minutes if you can't find it!"
@@ -27,3 +27,6 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
 end
+
+
+

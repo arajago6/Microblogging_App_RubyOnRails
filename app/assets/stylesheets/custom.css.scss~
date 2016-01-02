@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('http://fonts.googleapis.com/css?family=Pacifico');
+@import url('http://fonts.googleapis.com/css?family=Damion');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700italic');
 
 /* mixins, variables, etc. */
 
@@ -64,12 +65,11 @@ p {
 /* header */
 
 #logo {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Marck Script', cursive;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -135,7 +135,7 @@ background-color: black;
     overflow: hidden;
 }
 
-.container{
+.container1{
     text-align:center;
 }
 

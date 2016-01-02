@@ -3,4 +3,6 @@
     <%= render @feed_items %>
   </ol>
   <%= will_paginate @feed_items %>
+<% else %>
+<h5>No posts/followers to form feed from!</h5>
 <% end %>
