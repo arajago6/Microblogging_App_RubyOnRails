@@ -8,8 +8,8 @@ class MicropostsController < ApplicationController
       flash[:success] = "Micropost has been created!"
       redirect_to root_url
     else
-      @feed_items = []
-      render 'static_pages/home'
+      flash[:danger] = "Micropost was not created since the text area was empty!"
+      redirect_to root_url
     end
   end
 

@@ -8,14 +8,14 @@ class MicropostsController < ApplicationController
       flash[:success] = "Micropost has been created!"
       redirect_to root_url
     else
-      @feed_items = []
-      render 'static_pages/home'
+      flash[:danger] = "Micropost was not created since text area was empty!"
+      redirect_to root_url
     end
   end
 
   def destroy
     @micropost.destroy
-    flash[:success] = "Micropost has been deleted"
+    flash[:success] = "Micropost has been deleted!"
     redirect_to request.referrer || root_url
   end
 
