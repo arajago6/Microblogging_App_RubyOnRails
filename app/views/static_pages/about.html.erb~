@@ -16,7 +16,7 @@
 		&#8702 MBlo uses <b>Heroku Postgres</b> database for non-image data storage. <b>AWS S3</b> is being used for image content. <b>SQLite</b> was used during development.</br>
 		&#8702 MBlo utilizes a <b>lot of gems</b> (almost 100) with the noteworthy being <b>'bcrypt'</b> for hashing passwords, <b>'carrierwave'</b> for image handling, <b>'mini-magick'</b> for image resizing (to prevent oversized images from breaking the site layout), <b>'fog'</b> for cloud image uploads and a couple more for <b>paginations</b> across the site.</br>
 		&#8702 To help control spam, MBlo employs activation mails to verify email addresses, uses Heroku add-on <b>'SendGrid'</b> for the same. This setup is being re-used for sending password reset mailers as well.</br>
-		&#8702 One further external service that is integrated with this app is that of <b>'Gravatar'</b>. MBlo gets initial profile picture of users from Gravatar with their email addresses. Users can update their profile picture later by accessing Account->Settings page, if logged in.</br></br>
+		&#8702 One further external service that is integrated with this app is that of <b>'Gravatar'</b>. MBlo gets profile picture of users from Gravatar with their email addresses. Users can update their profile picture by accessing Account->Settings page, if logged in. This feature requires the users to have/create a WordPress.com account.</br></br>
 		Well, that's pretty much it! If your are an employer looking for a Rails developer, I am interested rightaway and here is my <a href="https://www.linkedin.com/in/arunrajagopalan92">LinkedIn</a> profile.</br></br>
 		<b>Thanks for being here!</b></br>
 		I am looking to add more features to MBlo in near future. Be here often!</br><i>3rd January 2016</i>
