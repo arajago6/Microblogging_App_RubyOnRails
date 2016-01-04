@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: 'Pacifico-regular';
-  src:font-url("/assets/Pacifico-regular.eot");
-  src:font-url("/assets/Pacifico-regular.eot?#iefix") format("embedded-opentype"),
-    font-url("/assets/Pacifico-regular.svg#Pacifico-regular") format("svg"),
-    font-url("/assets/Pacifico-regular.woff") format("woff"),
-    font-url("/assets/Pacifico-regular.ttf") format("truetype");
+  src:asset-url("/assets/Pacifico-regular.eot");
+  src:asset-url("/assets/Pacifico-regular.eot?#iefix") format("embedded-opentype"),
+    asset-url("/assets/Pacifico-regular.svg#Pacifico-regular") format("svg"),
+    asset-url("/assets/Pacifico-regular.woff") format("woff"),
+    asset-url("/assets/Pacifico-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
