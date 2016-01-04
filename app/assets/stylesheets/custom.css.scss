@@ -4,7 +4,7 @@
 /* title font */
 
 @font-face {
-  font-family: 'Pacifico';
+  font-family: 'Pacifico-regular';
   src:font-url("/assets/Pacifico-regular.eot");
   src:font-url("/assets/Pacifico-regular.eot?#iefix") format("embedded-opentype"),
     font-url("/assets/Pacifico-regular.svg#Pacifico-regular") format("svg"),
@@ -76,7 +76,7 @@ p {
 /* header */
 
 #logo {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico-regular', cursive;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
