@@ -22,17 +22,17 @@
   <h1>Glad to have you at 'MBlo'!</h1>
   <p>
     MBlo (Beta) is a microblogging app that lets you share small posts, with images ofcourse, to the world.</br>
-    You can follow people and get followed! Try it and you will love it!
+    You can follow people and get followed! Try it and you 'll love it!
   </p>
   <%= link_to "Sign up now for a free account!", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
   <div class="container1">
     <div class="home_img">
-      <%= link_to image_tag("mehcopy1.png", alt: "Rails logo"),
+      <%= link_to image_tag("homeunder1.png", alt: "Rails logo"),
             'http://rubyonrails.org/' %>
-      <%= link_to image_tag("mehcopy2.png", alt: "Rails logo"),
+      <%= link_to image_tag("homeunder2.png", alt: "Rails logo"),
             'http://rubyonrails.org/' %>
-      <%= link_to image_tag("mehcopy2.png", alt: "Rails logo"),
+      <%= link_to image_tag("homeunder3.png", alt: "Rails logo"),
             'http://rubyonrails.org/' %>
     </div>
   </div>

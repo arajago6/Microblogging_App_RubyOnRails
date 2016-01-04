@@ -145,7 +145,11 @@ background-color: black;
 }
 
 .dropdown-menu {
-    background: linear-gradient(lightblue, lightgreen);
+    background: black;
+}
+
+.btn.btn-primary {
+    margin-top: 10px;
 }
 /* sidebar */
 
