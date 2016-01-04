@@ -1,19 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* title font */
-
-@font-face {
-  font-family: 'Pacifico-regular';
-  src:asset-url("/assets/Pacifico-regular.eot");
-  src:asset-url("/assets/Pacifico-regular.eot?#iefix") format("embedded-opentype"),
-    asset-url("/assets/Pacifico-regular.svg#Pacifico-regular") format("svg"),
-    asset-url("/assets/Pacifico-regular.woff") format("woff"),
-    asset-url("/assets/Pacifico-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;

@@ -26,5 +26,7 @@ module SampleApp
     # Include the authenticity token in remote forms.
     config.action_view.embed_authenticity_token_in_remote_forms = true
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
+    #Precompile additional assets
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
   end
 end

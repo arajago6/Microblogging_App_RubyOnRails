@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+/* title font */
+
+@font-face {
+  font-family: 'Pacifico-regular';
+  src:font-url( asset-path("Pacifico-regular.eot") );
+  src:font-url( asset-path("Pacifico-regular.eot?#iefix") ) format("embedded-opentype"),
+    font-url( asset-path("Pacifico-regular.svg#Pacifico-regular") ) format("svg"),
+    font-url( asset-path("Pacifico-regular.woff") ) format("woff"),
+    font-url(asset_path("Pacifico-regular.ttf") ) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
