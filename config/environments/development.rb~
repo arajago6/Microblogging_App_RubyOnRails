@@ -27,10 +27,16 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  #Add the fonts path
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+
+  #Precompile additional assets
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
+
   # For mail
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'example.com'
+  host = 'localhost:3000'
   config.action_mailer.default_url_options = { host: host }
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,

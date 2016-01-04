@@ -28,6 +28,12 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
+  #Add the fonts path
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+
+  #Precompile additional assets
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
+
   # For mail
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
