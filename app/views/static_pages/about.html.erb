@@ -3,10 +3,16 @@
 <html>
   <body>
 	<h1>About MBlo</h1>
+	<h3 style="text-align:center"><b>This is one good project to enliven winter holidays right?!</b></h3></br>
 	<div class="center jumbotron">
-	<h3><b>This is one good project to enliven winter holidays right?!</b></h3>
-	<h4><i>Hey all, I am Arun Rajagopalan, a current Computer Science graduate student at 
+	<h4><i>Hey all, I am <b>Arun Rajagopalan</b>, a current Computer Science graduate student at 
 								Illinois Institute of Technology, Chicago.</i></h4>
+        
+        <div class="home_img">
+        <%= link_to image_tag("facebook-logo.png", alt: "Arun's Facebook profile"),  "https://www.facebook.com/arunishere", :target => "_blank" %> | 
+        <%= link_to image_tag("linkedin-logo.png", alt: "Arun's LinkedIn profile"), "https://www.linkedin.com/in/arunrajagopalan92", :target => "_blank" %> |
+	<%= link_to image_tag("github-logo.png", alt: "Arun's github profile"), "https://github.com/arajago6", :target=>"_blank" %>
+	</div>
 	</div>
 	<p style="text-align:justify">
 		MBlo came into existence as a result of a hands-on <b>Ruby on Rails</b> (hereafter referred to as RoR) course that I pursued by the end of 2015. The functionality is similar to Twitter where users can share small posts with images and follow/unfollow fellow users. Learning RoR was real fun and it truly lived upto its tagline of "web development that doesn't hurt". MBlo was built with rich, comprehensive features (for a pastime project) and thus I had already gained significant exposure to RoR by the time MBlo went live. I am very happy with my RoR experience till date and would recommend RoR to you guys as well.</br></br>
@@ -17,7 +23,7 @@
 		&#8702 MBlo utilizes a <b>lot of gems</b> (almost 100) with the noteworthy being <b>'bcrypt'</b> for hashing passwords, <b>'carrierwave'</b> for image handling, <b>'mini-magick'</b> for image resizing (to prevent oversized images from breaking the site layout), <b>'fog'</b> for cloud image uploads and a couple more for <b>paginations</b> across the site.</br>
 		&#8702 To help control spam, MBlo employs activation mails to verify email addresses, uses Heroku add-on <b>'SendGrid'</b> for the same. This setup is being re-used for sending password reset mailers as well.</br>
 		&#8702 One further external service that is integrated with this app is that of <b>'Gravatar'</b>. MBlo gets profile pictures of users from Gravatar with their email addresses. Users can update their profile picture by accessing Account->Settings page, if logged in. This feature requires the users to have/create a WordPress.com account.</br></br>
-		Well, that's pretty much it! If your are an employer looking for a Rails developer, I am interested rightaway and here is my <a href="https://www.linkedin.com/in/arunrajagopalan92">LinkedIn</a> profile.</br></br>
+		Well, that's pretty much it!</br> If your are an employer looking for a Rails developer, I am interested right away! Kindly drop a mail to <b>arajago6@hawk.iit.edu</b>.</br></br>
 		<b>Thanks for being here!</b></br>
 		I am looking to add more features to MBlo in near future. Be here often!</br><i>3rd January 2016</i>
 	</p>
