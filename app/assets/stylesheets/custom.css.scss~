@@ -1,19 +1,5 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "Pacifico-regular";
-
-/* title font */
-
-@font-face {
-  font-family: 'Pacifico-regular';
-  src:asset-url("/assets/Pacifico-regular.eot");
-  src:asset-url("/assets/Pacifico-regular.eot?#iefix") format("embedded-opentype"),
-    asset-url("/assets/Pacifico-regular.svg#Pacifico-regular") format("svg"),
-    asset-url("/assets/Pacifico-regular.woff") format("woff"),
-    asset-url("/assets/Pacifico-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* mixins, variables, etc. */
 
@@ -163,6 +149,22 @@ background-color: black;
 
 .btn.btn-primary {
     margin-top: 5px;
+}
+
+.tilt img {
+  -webkit-transition: all 0.1s ease;
+     -moz-transition: all 0.1s ease;
+       -o-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+          transition: all 0.1s ease;
+}
+ 
+.tilt img:hover {
+  -webkit-transform: rotate(-20deg);
+     -moz-transform: rotate(-20deg);
+       -o-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+          transform: rotate(-20deg);
 }
 /* sidebar */
 
