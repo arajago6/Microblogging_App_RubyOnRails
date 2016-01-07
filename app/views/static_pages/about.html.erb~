@@ -9,9 +9,9 @@
 								Illinois Institute of Technology, Chicago.</i></h4>
         
         <div class="home_img">
-        <%= link_to image_tag("facebook-logo.png", alt: "Arun's Facebook profile"),  "https://www.facebook.com/arunishere", :target => "_blank", :class => "tilt" %> | 
-        <%= link_to image_tag("linkedin-logo.png", alt: "Arun's LinkedIn profile"), "https://www.linkedin.com/in/arunrajagopalan92", :target => "_blank", :class => "tilt" %> |
-	<%= link_to image_tag("github-logo.png", alt: "Arun's github profile"), "https://github.com/arajago6", :target=>"_blank", :class => "tilt" %>
+        <%= link_to image_tag("facebook-logo.svg", alt: "Arun's Facebook profile"),  "https://www.facebook.com/arunishere", :target => "_blank", :class => "tilt" %> | 
+        <%= link_to image_tag("linkedin-logo.svg", alt: "Arun's LinkedIn profile"), "https://www.linkedin.com/in/arunrajagopalan92", :target => "_blank", :class => "tilt" %> |
+	<%= link_to image_tag("github-logo.svg", alt: "Arun's github profile"), "https://github.com/arajago6", :target=>"_blank", :class => "tilt" %>
 	</div>
 	</div>
 	<p style="text-align:justify">

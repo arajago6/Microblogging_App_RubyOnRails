@@ -152,6 +152,8 @@ background-color: black;
 }
 
 .tilt img {
+               width: 32px;
+              height: 32px;
   -webkit-transition: all 0.1s ease;
      -moz-transition: all 0.1s ease;
        -o-transition: all 0.1s ease;
@@ -160,6 +162,8 @@ background-color: black;
 }
  
 .tilt img:hover {
+              width: 32px;
+             height: 32px;
   -webkit-transform: rotate(-30deg);
      -moz-transform: rotate(-30deg);
        -o-transform: rotate(-30deg);
