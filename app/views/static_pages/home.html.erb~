@@ -28,9 +28,9 @@
   </div>
   <div class="container1">
     <div class="home_img">
-      <%= link_to image_tag("homeunder1.png", alt: "MBlo functionality description") %>
-      <%= link_to image_tag("homeunder2.png", alt: "MBlo functionality description") %>
-      <%= link_to image_tag("homeunder3.png", alt: "MBlo functionality description") %>
+      <%= link_to image_tag("homeunder1.png", alt: "MBlo functionality description", :width => 290, :height => 106) %>
+      <%= link_to image_tag("homeunder2.png", alt: "MBlo functionality description", :width => 290, :height => 106) %>
+      <%= link_to image_tag("homeunder3.png", alt: "MBlo functionality description", :width => 290, :height => 106) %>
     </div>
   </div>
 <% end %>

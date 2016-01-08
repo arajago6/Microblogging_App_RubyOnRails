@@ -139,6 +139,8 @@ background-color: black;
 
 
 .home_img{
+    width: 290px;
+    height: 111px;
     display:inline-block;
     padding:5px;
 }
@@ -162,8 +164,8 @@ background-color: black;
 }
  
 .tilt img:hover {
-               width: 32px;
-              height: 32px;
+              width: 32px;
+             height: 32px;
   -webkit-transform: rotate(-30deg);
      -moz-transform: rotate(-30deg);
        -o-transform: rotate(-30deg);
