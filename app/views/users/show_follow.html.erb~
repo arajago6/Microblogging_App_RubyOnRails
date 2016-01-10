@@ -11,7 +11,7 @@
       <%= render 'shared/stats' %>
       <% if @users.any? %>
         <div class="user_avatars">
-          <% @users.sort_by(&:name).each do |user| %>
+          <% @users.each do |user| %>
             <%= link_to gravatar_for(user, size: 30), user %>
           <% end %>
         </div>
@@ -21,7 +21,6 @@
   <div class="col-md-8">
     <h3><%= @title %></h3>
     <% if @users.any? %>
-      <% @users.sort_by(&:name) %>
       <ul class="users follow">
         <%= render @users %>
       </ul>
