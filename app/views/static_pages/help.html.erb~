@@ -1,7 +1,4 @@
 <% provide(:title, "Help") %>
-<!DOCTYPE html>
-<html>
-  <body>
 	<h1>MBlo Help</h1>
 	<h2> 
 	  Join the MBlo family by clicking the Sign-Up button in Home page</br>&#x21E9</br>
@@ -16,5 +13,3 @@
 	  </br>You can also request password resets by clicking Forgot-password link while trying to login.
   	</h2>
   	<h1><i>Happy Blogging!</i></h1>
-  </body>
-</html>

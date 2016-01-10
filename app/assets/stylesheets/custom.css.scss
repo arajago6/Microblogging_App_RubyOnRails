@@ -133,12 +133,12 @@ background-color: black;
     overflow: hidden;
 }
 
-.container1{
+.container1 {
     text-align:center;
 }
 
 
-.home_img{
+.home_img {
     display:inline-block;
     padding:5px;
 }
@@ -169,6 +169,11 @@ background-color: black;
        -o-transform: rotate(-30deg);
       -ms-transform: rotate(-30deg);
           transform: rotate(-30deg);
+}
+
+.home_under {
+    width :309px;
+    height:112px;
 }
 /* sidebar */
 
