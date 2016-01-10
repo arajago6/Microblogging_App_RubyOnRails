@@ -3,7 +3,7 @@
 <h2>Click on the usernames to view user profiles or to follow/unfollow them.</h2>
 <%= will_paginate %>
 <ul class="users">
-  <% @users.sort.each do |user| %>
+  <% @users.each do |user| %>
     <%= render user %>
   <% end %>
 </ul>

@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.order(:name).paginate(page: params[:page])
   end
 
   def show
@@ -50,15 +50,14 @@ class UsersController < ApplicationController
   def following
     @title = "Following"
     @user  = User.find(params[:id])
-    @users = @user.following.paginate(page: params[:page])
+    @users = @user.following.order(:name).paginate(page: params[:page])
     render 'show_follow'
   end
 
   def followers
     @title = "Followers"
     @user  = User.find(params[:id])
-    @users = @user.followers.paginate(page: params[:page])
-    @users = @users.sort_by(&:name)
+    @users = @user.followers.order(:name).paginate(page: params[:page])
     render 'show_follow'
   end
 
