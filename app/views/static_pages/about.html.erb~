@@ -1,7 +1,4 @@
 <% provide(:title, "About") %>
-<!DOCTYPE html>
-<html>
-  <body>
 	<h1>About MBlo</h1>
 	<h3 style="text-align:center"><b>This is one good project to enliven winter holidays right?!</b></h3></br>
 	<div class="center jumbotron">
@@ -17,8 +14,8 @@
 	<p style="text-align:justify">
 		MBlo came into existence in the latter part of 2015 when I wanted to put my <b>Ruby on Rails</b> (hereafter referred to as RoR) knowledge into action. The functionality of MBlo is similar to that of Twitter where users can share small posts with images and follow/unfollow fellow users. Learning RoR was real fun and I must admit that RoR truly lived upto its tagline of "web development that doesn't hurt". MBlo was built with rich, comprehensive features (for a pastime project) and thus I had already gained significant exposure to RoR by the time MBlo went live. I am very happy with my RoR experience till date and would recommend RoR to you guys as well. Lastly, I would like to sincerely thank <a href="http://www.michaelhartl.com/">Michael</a> for his RoR tutorial!</br></br>
 		<i>In case you would like some details about the project:</i></br>
-		&#8702 MBlo was built in <b>TDD</b> (Test Driven Development) fashion; Has more than 60 exhaustive test cases that comprise of nearly 350 assertions in total.</br>
-		&#8702 The app is hosted on <b>Heroku</b> platform, runs on <b>Puma</b> webserver (to allow concurrent traffic) and forces <b>SSL</b> use. <b>Bitbucket</b> with <b>git</b> is being used for version control. (I love this project so much that I run it on Heroku's Hobby dynos!)</br>
+		&#8702 MBlo was built in <b>TDD</b> (Test Driven Development) fashion; Has more than 60 exhaustive test cases that comprise of nearly 300 assertions in total.</br>
+		&#8702 The app is hosted on <b>Heroku</b> platform, runs on <b>Puma</b> webserver (to allow concurrent traffic) and forces <b>SSL</b> use. <b>Bitbucket</b> with <b>git</b> is being used for version control. (I love this project so much that, at times, I run it on Heroku's Hobby dynos!)</br>
 		&#8702 MBlo uses <b>Heroku Postgres</b> database for non-image data storage. <b>AWS S3</b> is being used for image content. <b>SQLite</b> was used during development.</br>
 		&#8702 MBlo utilizes a <b>lot of gems</b> (almost 100) with the noteworthy being <b>'bcrypt'</b> for hashing passwords, <b>'carrierwave'</b> for image handling, <b>'mini-magick'</b> for image resizing (to prevent oversized images from breaking the site layout), <b>'fog'</b> for cloud image uploads and a couple more for <b>paginations</b> across the site.</br>
 		&#8702 To help control spam, MBlo employs activation mails to verify email addresses, uses Heroku add-on <b>'SendGrid'</b> for the same. This setup is being re-used for sending password reset mailers as well.</br>
@@ -27,5 +24,3 @@
 		<b>Thanks for being here!</b></br>
 		I am looking to add more features to MBlo in near future. Be here often!</br><i>3rd January 2016</i>
 	</p>
-  </body>
-</html>
