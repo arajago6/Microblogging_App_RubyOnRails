@@ -19,3 +19,4 @@
 # Ignore uploaded test images.
 /public/uploads
 
+db/schema.rb
